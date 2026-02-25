@@ -10,15 +10,15 @@
  */
  
 declare(strict_types=1);
- 
+
 namespace CoopTilleuls\UrlSignerBundle\DependencyInjection;
- 
+
 use CoopTilleuls\UrlSignerBundle\UrlSigner\UrlSignerInterface;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\PhpFileLoader;
- 
+
 final class CoopTilleulsUrlSignerExtension extends Extension
 {
     /** @param mixed[] $configs */
